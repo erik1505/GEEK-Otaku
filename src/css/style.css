@@ -1,0 +1,84 @@
+body{
+    font-size: 1.2rem;
+    background-image: url(https://images6.alphacoders.com/656/thumbbig-656029.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.fundo1{
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    opacity: 0.8;
+    margin: auto;
+}
+
+.header{
+    margin-left: 20%;
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 50px;
+}
+
+#logo{
+    font-size: 24px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    transform: translate(0, -20%);
+}
+
+#logo:hover{
+    color: gray;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li:hover{
+    background-color: gray;
+    color: white;
+}
+
+li{
+    padding: 14px;
+    list-style: none;
+    color: black;
+    flex-grow: 1;
+    transform: translate(-40%, -40%);
+    background-color: red;
+}
+
+section{
+    display: flex;
+    gap: 30px;
+    margin: 5px;
+}
+
+article{
+    max-width: 240px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo-artigo:hover{
+    color: gray;
+}
+
+.img1{
+    width: 250px;
+}
