@@ -1,5 +1,5 @@
 body{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-image: url(https://images6.alphacoders.com/656/thumbbig-656029.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +68,7 @@ a{
 
 .img1{
     width: 450px;
+    height: 270px;
     margin: 5px;
     float: left;
 }
@@ -82,9 +83,10 @@ a{
     color: gray;
 }
 
-.paragrafo{
+main{
     margin: 5px;
 }
+
 
 .img2{
     float: left;
@@ -99,5 +101,89 @@ a{
     margin: 5px;
 }
 
+.img3-1{
+    float: left;
+    width: 350px;
+    height: 300px;
+    margin: 5px;
+}
 
+.img4{
+    float: left;
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+}
 
+.img4-2{
+    float: left;
+    width: 400px;
+    height: 480px;
+    margin: 5px;
+}
+
+.img4-1{
+    float: left;
+    width: 450px;
+    height: 450px;
+    margin: 5px;
+}
+
+.img4-2{
+    float: left;
+    width: 500px;
+    height: 520px;
+    margin: 5px;
+}
+
+.img5{
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+}
+
+.img5-1{
+    float: left;
+    margin: 5px;
+    width: 400px;  
+    height: 350px;  
+}
+
+.img6{
+    float: left;
+    width: 450px;
+    height: 420px;
+    margin: 5px;
+}
+
+.img6-1{
+    float: left;
+    width: 450px;
+    height: 440px;
+    margin: 5px;
+}
+
+.img7{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.img8{
+    transform: translateX(450px);
+    width: 250px;
+    height: 400px;
+}
+
+.img9{
+    transform: translateX(450px);
+    width: 300px;
+    height: 400px;
+}
+
+.paragrafo{
+    transform: translateX(200px);
+    max-width: 800px;
+}
